@@ -1,10 +1,13 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        int[] nums={12,125};
-        int target = 2;
+        int[] nums={12,12};
+        int target = 24;
         TwoSum twoSum = new TwoSum();
-
-        System.out.println("Hello, World! "+twoSum);
+        int[] retNum = twoSum.twoSum(nums,target);
+        
+        System.out.println("Hello, World! "+retNum[0]);
         
     }
+
+    
 }
